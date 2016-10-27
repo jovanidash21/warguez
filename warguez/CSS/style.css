@@ -1,0 +1,1673 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+html,
+body
+{
+    min-height: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+html
+{
+    background: url(../Images/Backgrounds/body.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body
+{
+    overflow-y: scroll;
+}
+a
+{
+    text-decoration: none;
+}
+button,
+input[type="submit"]
+{
+    cursor: pointer !important;
+}
+section.header_bar,
+section.menu_bar,
+section.slideshow_bar,
+section.maincontent_bar_header,
+section.maincontent_bar,
+section.footer_bar
+{
+    width: 100%;
+    position: relative;
+}
+section.footer_bar_absolute
+{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+/*----------------------------------------TEXTS CSS (start)----------------------------------------*/
+#main_title_light
+{
+    color: #EEEEEE;
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0px 5px 0px rgba(50, 50, 50, 0.5);
+}
+#main_header_primary
+{
+    color: rgba(231, 76, 60, 1); /*Primary Color*/
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#main_sub_header_dark
+{
+    color: rgba(30, 30, 30, 1);
+    font-size: 20px;
+}
+#main_sub_header_light
+{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#main_label_text_dark
+{
+    color: #000000;
+    font-size: 17px;
+}
+#main_label_text_secondary
+{
+    color: rgba(9, 86, 70, 1); /*SecondaryDark Color*/
+    font-size: 17px;
+}
+#main_link_dark a,
+#main_link_dark
+{
+    color: #000000;
+    font-size: 17px;
+}
+#main_link_dark a:hover
+{
+    color: rgba(30, 30, 30, 1);
+    text-decoration: underline;
+}
+#main_text_light
+{
+    color: rgba(220, 220, 220, 1);
+    font-size: 17px;
+}
+#main_text_dark
+{
+    color: #000000;
+    font-size: 16px;
+}
+#main_sub_text_light
+{
+    color: rgba(220, 220, 220, 1);
+    font-size: 12px;
+    font-weight: 300;
+}
+#sub_label_text_dark
+{
+    color: #000000;
+    font-size: 13px;
+}
+#sub_label_link_primary a
+{
+    color: rgba(231, 76, 60, 1); /*Primary Color*/
+    font-size: 13px;
+}
+#sub_label_link_primary a:hover
+{
+    color: rgba(169, 58, 46, 1); /*PrimaryDark Color*/
+    text-decoration: underline;
+}
+/*#main_horizontal_line
+{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(231, 76, 60, 0), rgba(231, 76, 60, 0.6), rgba(231, 76, 60, 0));
+}*/
+@media only screen and (max-width: 1200px)
+{
+    
+}
+@media only screen and (max-width: 960px)
+{
+    
+}
+@media only screen and (max-width: 720px)
+{
+    #main_title_light
+    {
+        font-size: 40px;
+    }
+    #main_header_primary
+    {
+        font-size: 20px;
+    }
+    #main_sub_header_dark
+    {
+        font-size: 16px;
+    }
+    #main_sub_header_light
+    {
+        font-size: 16px;
+    }
+    #main_label_text_dark
+    {
+        font-size: 13px;
+    }
+    #main_link_dark a,
+    #main_link_dark
+    {
+        font-size: 13px;
+    }
+    #main_text_light
+    {
+        font-size: 13px;
+    }
+    #main_sub_text_light
+    {
+        font-size: 9px;
+    }
+    #sub_label_text_dark
+    {
+        font-size: 10px;
+    }
+    #sub_label_link_primary a
+    {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 480px)
+{
+    
+}
+/*----------------------------------------TEXTS CSS (end)----------------------------------------*/
+/*----------------------------------------INPUTS CSS (start)----------------------------------------*/
+input#signup_button,
+input#login_button,
+input#getupdates_button,
+input#main_login_button
+{
+    transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+}
+input#signup_button
+{
+    background-color: rgba(15, 147, 119, 1); /*Secondary Color*/
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+   
+}
+input#signup_button:hover
+{
+    background-color: rgba(59, 178, 153, 1); /*SecondaryLight Color*/
+}
+input#login_button
+{
+    background-color: rgba(231, 76, 60, 1); /*Primary Color*/
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+input#login_button:hover
+{
+     background-color: rgba(231, 120, 109, 1); /*PrimaryLight Color*/
+}
+input#getupdates_button
+{
+    background-color: rgba(100, 100, 100, 1);
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+input#getupdates_button:hover
+{
+    background-color: rgba(150, 150, 150, 1);
+}
+input#main_login_button
+{
+    background-color: rgba(243, 146, 63, 1); /*Tertiary Color*/
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+input#main_login_button:hover
+{
+     background-color: rgba(210, 131, 63, 1); /*TertiaryDark Color*/
+}
+media only screen and (max-width: 1200px)
+{
+    
+}
+@media only screen and (max-width: 960px)
+{
+    
+}
+@media only screen and (max-width: 720px)
+{
+    input#signup_button
+    {
+    font-size: 14px;
+    }
+    input#login_button
+    {
+    font-size: 14px;
+    }
+    input#getupdates_button
+    {
+    font-size: 14px;
+    }
+    input#main_login_button
+    {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 480px)
+{
+    
+}
+/*----------------------------------------INPUTS CSS (end)----------------------------------------*/
+/*----------------------------------------HEADERBAR CSS (start)----------------------------------------*/
+section.header_bar
+{
+    font-family: Trebuchet MS, Helvetica, Verdana, Arial, Sans-Serif, Tahoma;
+    background: url(../Images/Backgrounds/Header.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: 8px solid rgba(15, 147, 119, 1); /*Secondary Color*/
+}
+.header_bar_wrapper
+{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    display: -webkit-flex; /* For Safari */
+    flex-direction: row;
+}
+.header_bar_wrapper div
+{
+    -webkit-flex: 1;  /* For Safari 6.1+ */
+    -ms-flex: 1;  /* For IE 10 */    
+    flex: 1;
+}
+.header_bar_logo img#header_bar_logo
+{
+    height: 100px; /* Logo height on menuber*/
+    width: 300px; /* Logo width on menuber*/
+    margin: 20px 0;
+    vertical-align: middle;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.header_bar_logo img#header_bar_logo:hover
+{
+    box-shadow: 0px 0px 15px 3px rgba(255, 255, 255, 0.6);
+}
+.header_bar_form
+{
+    text-align: right; 
+    padding: 35px 0;
+}
+.header_bar_form ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.header_bar_form ul li
+{
+    display: inline-block;
+    text-align: right;
+}
+.header_bar_form ul li:nth-child(1)
+{
+    margin-right: 7px;
+}
+.header_bar_form ul li:nth-last-child(1)
+{
+    margin-left: 7px;
+}
+.header_bar_form form input[type="submit"]
+{
+    border: transparent;
+    padding: 21px 18px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 0px rgba(50, 50, 50, 1);
+}
+@media only screen and (max-width: 1200px)
+{
+    .header_bar_wrapper
+    {
+        width: 88%;
+    }
+    .header_bar_logo img#header_bar_logo
+    {
+        height: 75px; /* Logo height on menubar*/
+        width: 225px; /* Logo width on menubar*/
+        margin: 10px 0;
+    }
+    .header_bar_form
+    { 
+        padding: 20px 0;
+    }
+    .header_bar_form form input[type="submit"]
+    {
+        padding: 17px 15px;
+        font-size: 18px;
+    }
+
+}
+@media only screen and (max-width: 960px)
+{
+    .header_bar_wrapper
+    {
+        width: 92%;
+    }
+}
+@media only screen and (max-width: 720px)
+{
+    .header_bar
+    {
+        border-bottom: 5px solid rgba(15, 147, 119, 1); /*Secondary Color*/
+    }
+    .header_bar_wrapper
+    {
+        width: 85%;
+    }
+    .header_bar_form
+    { 
+        padding: 9px 0;
+    }
+    .header_bar_form form input[type="submit"]
+    {
+        padding: 8px 8px;
+        font-size: 18px;
+    }
+    .header_bar_logo img#header_bar_logo
+    {
+        height: 45px; /* Logo height on menuber*/
+        width: 135px; /* Logo width on menuber*/
+        margin: 7px 0;
+    }
+}
+@media only screen and (max-width: 480px)
+{
+    .header_bar_wrapper
+    {
+        display: block;
+    }
+    .header_bar_form
+    {
+        display: none;
+    }
+    .header_bar_logo
+    {
+        text-align: center;
+    }
+}
+/*----------------------------------------HEADRERBAR CSS (end)----------------------------------------*/
+/*----------------------------------------MENUBAR CSS (start)----------------------------------------*/
+section.menu_bar
+{
+    font-family: Sans-serif, Verdana, Arial, Sans-Serif, Tahoma;
+    z-index: 2000;
+    background: rgba(150, 150, 150, 1); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(150, 150, 150, 1), rgba(30, 30, 30 ,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(150, 150, 150, 1), rgba(30, 30, 30, 1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(150, 150, 150, 1), rgba(30, 30, 30, 1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(150, 150, 150, 1), rgba(30, 30, 30, 1)); /* Standard syntax */
+    border-bottom: 3px solid rgba(169, 58, 46, 1); /*PrimaryDark Color*/
+}
+section.menu_bar_fixed
+{
+    position: fixed;
+    top: 0;
+    background: rgba(150, 150, 150, 0.7); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(150, 150, 150, 0.7), rgba(30, 30, 30 ,0.7)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(150, 150, 150, 0.7), rgba(30, 30, 30, 0.7)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(150, 150, 150, 0.7), rgba(30, 30, 30, 0.7)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(150, 150, 150, 0.7), rgba(30, 30, 30, 0.7)); /* Standard syntax */
+    border-bottom: 3px solid rgba(169, 58, 46, 0.7); /*PrimaryDark Color*/
+}
+.menu_bar_wrapper
+{
+    width: 90%;
+    margin: 0 auto;
+}
+.menu_bar_nottrigger nav
+{
+    width: 100%;
+}
+.menu_bar_nottrigger ul 
+{
+    display: flex;
+    display: -webkit-flex; /* For Safari */
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menu_bar_nottrigger ul li 
+{
+    flex-grow: 1;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0px 3px 0px rgba(50, 50, 50, 0.5);
+    border-left: 1px solid rgba(150, 150, 150, 1);
+    border-right: 1px solid rgba(30, 30, 30, 1);
+}
+.menu_bar_nottrigger li a
+{
+    color: #FFFFFF;
+    -webkit-transition-property: color, text;
+    -webkit-transition-duration: 0.4s, 0.4s;
+    -webkit-transition-timing-function: ease, linear, ease-in;
+    -moz-transition-property: color, text;
+    -moz-transition-duration: 0.4s;
+    -moz-transition-timing-function: ease, linear, ease-in;
+    -o-transition-property: color, text;
+    -o-transition-duration: 0.4s;
+    -o-transition-timing-function: ease, linear, ease-in;
+}
+.menu_bar_nottrigger li:hover a
+{
+    color: rgba(231, 76, 60, 1); /*Primary Color*/
+}
+.menu_bar_nottrigger ul li:nth-child(1)
+{
+    border-left: transparent;
+}
+.menu_bar_nottrigger ul li:nth-last-child(3)
+{
+    border-right: transparent;
+}
+.menu_bar_nottrigger ul li img
+{
+    display: none;
+    vertical-align: middle;
+    margin: 0 auto;
+    height: 35px; /* Icon height on menuber*/
+    width: 35px; /* Icon width on menuber*/
+}
+.menu_bar_nottrigger ul li a 
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 14px 0;
+    text-decoration: none;
+}
+.menu_bar_nottrigger ul li#active
+{
+    background-color: rgba(231, 76, 60, 1); /*Primary Color*/
+} 
+.menu_bar_nottrigger ul li#active a
+{
+    color: rgba(30, 30, 30, 1);
+    text-shadow: 0px 3px 0px rgba(150, 150, 150, 0.5);
+}
+.menu_bar_trigger
+{
+    display: none;
+    padding: 0;
+    text-align: right;
+}
+.menu_bar_trigger img
+{
+    padding: 8px;
+    vertical-align: middle;
+}
+.menu_bar_title
+{
+    float: left;
+    margin: 6px;
+}
+.menu_bar_trigger span#trigger
+{
+    cursor: pointer;
+}
+#menu_bar_login,
+#menu_bar_signup
+{
+    display: none;
+}
+@media only screen and (max-width: 1200px)
+{
+    .menu_bar_wrapper
+    {
+        width: 97%;
+    }
+    .menu_bar_nottrigger ul li
+    {
+        font-size: 14px;
+    }
+    .menu_bar_nottrigger span#menu_bar_home
+    {
+        display: none;
+    }
+    .menu_bar_nottrigger ul li img
+    {
+        display: block;
+        height: 25px; /* Icon height on menubar*/
+        width: 25px; /* Icon width on menubar*/
+    }
+}
+#menu_bar_login,
+#menu_bar_signup
+{
+    display: none;
+}
+@media only screen and (max-width: 960px)
+{
+    .menu_bar_nottrigger ul li
+    {
+        font-size: 13px;
+    }
+    .menu_bar_nottrigger ul li img
+    {
+        display: block;
+        height: 20px; /* Icon height on menubar*/
+        width: 20px; /* Icon width on menubar*/
+    }
+    .menu_bar_nottrigger ul li a 
+    {
+        padding: 9px 0;
+    }
+}
+@media only screen and (max-width: 720px)
+{
+    .menu_bar_wrapper
+    {
+        width: 100%;
+    }
+    .menu_bar_trigger
+    {
+        display: block;
+    }
+    .menu_bar_nottrigger 
+    {
+        display: none;
+        background-color: rgba(100, 100, 100, 0.5);
+        width: 35%;
+        float: right;
+        border-radius: 0 0 5px 5px;
+        border-top: 3px solid rgba(169, 58, 46, 1); /*PrimaryDark Color*/
+        position: absolute;
+        right: 0;
+    }
+    .menu_bar_nottrigger ul
+    {
+        display: inline;
+    }
+    .menu_bar_nottrigger ul li 
+    {
+        border-left: 1px hidden rgba(150, 150, 150, 1);
+        border-right: 1px hidden rgba(30, 30, 30, 1);
+        border-top: 1px solid rgba(150, 150, 150, 0.5);
+        border-bottom: 1px solid rgba(30, 30, 30, 0.5);
+    }
+    .menu_bar_nottrigger ul li:nth-child(1)
+    {
+        border-top: 1px hidden rgba(150, 150, 150, 0.5);
+    }
+    .menu_bar_nottrigger ul li:nth-last-child(3)
+    {
+        border-bottom: 1px hidden rgba(30, 30, 30, 0.5);
+        border-radius: 0 0 5px 5px;
+    }
+    .menu_bar_nottrigger li:hover
+    {
+        background-color: rgba(231, 76, 60, 1); /*Primary Color*/
+    }
+    .menu_bar_nottrigger li:hover a
+    {
+        color: #FFFFFF
+    }
+    .menu_bar_nottrigger ul li a 
+    {
+        padding: 7px 0;
+    }
+    .menu_bar_nottrigger ul li img
+    {
+        display: none;
+    }
+    .menu_bar_nottrigger span#menu_bar_home
+    {
+        display: inline;
+    }
+    .menu_bar_nottrigger_expanded
+    {
+        display: block;
+    }
+}
+@media only screen and (max-width: 480px)
+{
+    .menu_bar_nottrigger
+    {
+        width: 100%;
+        float: none;
+    }
+    .menu_bar_trigger
+    {
+        width: 100%;
+        border-radius: 0;
+    }
+    #menu_bar_login,
+    #menu_bar_signup
+    {
+        display: block;
+    }
+    .menu_bar_nottrigger ul li:nth-last-child(3)
+    {
+        border-radius: 0;
+    }
+    .menu_bar_nottrigger ul li:nth-last-child(1)
+    {
+        border-radius: 0 0 5px 5px;
+    }
+}
+/*----------------------------------------MENUBAR CSS (end)----------------------------------------*/
+/*----------------------------------------SLIDESHOWBAR CSS (start)----------------------------------------*/
+.slideshow_bar_wrapper
+{
+    width: 100%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 0 50px 0; /* Height of the arrows*/
+    background-color: rgba(70, 70, 70, 0.8);
+}
+.slideshow_bar_wrapper:hover span.cycle-prev img,
+.slideshow_bar_wrapper:hover span.cycle-next img
+{
+    opacity: 1;
+}
+.cycle-slideshow img
+{
+    width: 100%;
+    height: auto;
+}
+.slideshow_bar_wrapper span.cycle-prev,
+.slideshow_bar_wrapper span.cycle-next,
+.slideshow_bar_wrapper .cycle-pager span
+{
+    cursor: pointer;
+}
+.slideshow_bar_wrapper span.cycle-prev,
+.slideshow_bar_wrapper span.cycle-next
+{
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -70px; /* Negative height of the arrows*/
+    z-index: 150;
+}
+.slideshow_bar_wrapper span.cycle-prev img,
+.slideshow_bar_wrapper span.cycle-next img
+{
+    opacity: 0;
+    height: 50px; /* Height of arrows*/
+    width: 50px; /* Width of arrows*/
+    padding: 20px;
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+}
+.slideshow_bar_wrapper span.cycle-prev
+{
+    left: 1%;
+}
+.slideshow_bar_wrapper span.cycle-next
+{
+    right: 1%;
+}
+.slideshow_bar_wrapper span.cycle-pager
+{
+    width: 100%;
+    text-align: center;
+    z-index: 150;
+    top: 90%;
+    position: absolute;
+}
+.slideshow_bar_wrapper .cycle-pager span
+{
+    text-indent: 100%;
+    width: 15px; /* Width of the buttons*/
+    height: 15px; /* Height of the buttons*/
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid rgba(100, 100, 100, 1);
+    background-color: rgba(221, 221, 221, 1);
+    margin: 0 5px;
+}
+.slideshow_bar_wrapper span.cycle-pager span:hover
+{
+    border: 1px solid rgba(169, 58, 46, 1);
+}
+.slideshow_bar_wrapper span.cycle-pager .cycle-pager-active
+{
+    background-color: rgba(231, 76, 60, 1);
+    border: 1px solid rgba(169, 58, 46, 1);
+}
+@media only screen and (max-width: 1200px)
+{
+    .slideshow_bar_wrapper
+    {
+        padding: 0 0 40px 0; /* Height of the arrows*/
+    }
+    .slideshow_bar_wrapper span.cycle-prev,
+    .slideshow_bar_wrapper span.cycle-next
+    {
+        margin-top: -40px; /* Negative height of the arrows*/
+    }
+    .slideshow_bar_wrapper span.cycle-prev img,
+    .slideshow_bar_wrapper span.cycle-next img
+    {
+        height: 40px; /* Height of arrows*/
+        width: 40px; /* Width of arrows*/
+    }
+    .slideshow_bar_wrapper .cycle-pager span
+    {
+        width: 13px; /* Width of the buttons*/
+        height: 13px; /* Height of the buttons*/
+        margin: 0 4px;
+    }
+}
+@media only screen and (max-width: 960px)
+{
+    .slideshow_bar_wrapper
+    {
+        padding: 0 0 35px 0; /* Height of the arrows*/
+    }
+    .slideshow_bar_wrapper span.cycle-prev,
+    .slideshow_bar_wrapper span.cycle-next
+    {
+        margin-top: -35px; /* Negative height of the arrows*/
+    }
+    .slideshow_bar_wrapper span.cycle-prev img,
+    .slideshow_bar_wrapper span.cycle-next img
+    {
+        height: 35px; /* Height of arrows*/
+        width: 35px; /* Width of arrows*/
+    }
+    .slideshow_bar_wrapper .cycle-pager span
+    {
+        width: 11px; /* Width of the buttons*/
+        height: 11px; /* Height of the buttons*/
+        margin: 0 3px;
+    }
+    .slideshow_bar_wrapper span.cycle-pager
+    {
+        top: 88%;
+    }
+}
+@media only screen and (max-width: 720px)
+{
+    .slideshow_bar_wrapper
+    {
+        padding: 0 0 30px 0; /* Height of the arrows*/
+    }
+    .slideshow_bar_wrapper span.cycle-prev,
+    .slideshow_bar_wrapper span.cycle-next
+    {
+        margin-top: -30px; /* Negative height of the arrows*/
+    }
+    .slideshow_bar_wrapper span.cycle-prev img,
+    .slideshow_bar_wrapper span.cycle-next img
+    {
+        height: 30px; /* Height of arrows*/
+        width: 30px; /* Width of arrows*/
+    }
+    .slideshow_bar_wrapper .cycle-pager span
+    {
+        width: 10px; /* Width of the buttons*/
+        height: 10px; /* Height of the buttons*/
+        margin: 0 3px;
+    }
+    .slideshow_bar_wrapper span.cycle-pager
+    {
+        top: 84%;
+    }
+}
+@media only screen and (max-width: 480px)
+{
+    .slideshow_bar_wrapper
+    {
+        padding: 0 0 25px 0; /* Height of the arrows*/
+    }
+    .slideshow_bar_wrapper span.cycle-prev,
+    .slideshow_bar_wrapper span.cycle-next
+    {
+        margin-top: -25px; /* Negative height of the arrows*/
+    }
+    .slideshow_bar_wrapper span.cycle-prev img,
+    .slideshow_bar_wrapper span.cycle-next img
+    {
+        height: 25px; /* Height of arrows*/
+        width: 25px; /* Width of arrows*/
+    }
+    .slideshow_bar_wrapper .cycle-pager span
+    {
+        width: 8px; /* Width of the buttons*/
+        height: 8px; /* Height of the buttons*/
+        margin: 0 2px;
+    }
+    .slideshow_bar_wrapper span.cycle-pager
+    {
+        top: 80%;
+    }
+}
+/*----------------------------------------SLIDESHOWBAR CSS (end)----------------------------------------*/
+/*----------------------------------------MAINCONTENTBAR CSS (start)----------------------------------------*/
+section.maincontent_bar
+{
+    font-family: Sans-serif, Verdana, Arial, Sans-Serif, Tahoma;
+    margin: 5px 0;
+}
+.maincontent_bar_wrapper
+{
+    width: 95%;
+    margin: 0 auto;
+}
+/*HEADER*/
+.maincontent_bar_header
+{
+    font-family: Trebuchet MS, Helvetica, Verdana, Arial, Sans-Serif, Tahoma;
+    background-color: rgba(59, 178, 153, 0.8); /*SecondaryLight Color*/
+    position: relative;
+}
+.maincontent_bar_header div.main_header
+{
+    text-align: center;
+    padding: 12px;
+}
+.main_content
+{
+    display: flex;
+    display: -webkit-flex; /* For Safari */
+    flex-direction: row;
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.main_content div
+{
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 5px;
+}
+.main_content div.main_content_image
+{
+    padding: 5px;
+}
+.main_content div.main_content_image img
+{
+    vertical-align: middle;
+    margin: 10px;
+    height: auto; /*Height of the Logo*/
+    width: 100%; /*Width of the Logo*/
+    max-width: 550px;
+}
+.main_content div.main_content_description
+{
+   padding: 30px;
+   text-align: right;
+}
+.main_content div.main_content_description p
+{
+    vertical-align: middle;
+}
+/*PRODUCT ADS*/
+.product_wrapper
+{
+    padding: 20px;
+}
+.product_container
+{
+    display: flex;
+    display: -webkit-flex; /* For Safari */
+    flex-direction: row;
+}
+.product_container div
+{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.maincontent_bar_product
+{
+    margin: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(169, 58, 46, 0.8); /*PrimaryDark Color*/
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 3px 1px rgba(50, 50, 50, 0.7);
+}
+.product_header
+{
+    font-family: Trebuchet MS, Helvetica, Verdana, Arial, Sans-Serif, Tahoma;
+    text-align: left;
+    padding: 8px;
+    background-color: rgba(169, 58, 46, 0.8); /*PrimaryDark Color*/
+}
+.product_picture
+{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-color: rgba(200, 200, 200, 0.8);
+    overflow: hidden;
+}
+.product_picture img#product
+{
+    padding: 4px 0 0 0;
+    height: 100%;
+    width: 100%;
+}
+.product_picture_hover
+{
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+    background-color: rgba(59, 178, 153, 0.85); /*SecondaryLight Color*/
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    width: 100%;
+    height: 100%;
+}
+.product_picture_hover img
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 60px; /*Height of the zoom logo*/
+    width: 60px; /*Width of the zoom logo*/
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-ttransform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.product_picture_hover:hover
+{
+    opacity: 1;
+}
+.product_description
+{
+    padding: 15px;
+}
+/*PARAGRAPH FORMS*/
+.paragraph_wrapper
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.paragraph_header
+{
+    font-family: Trebuchet MS, Helvetica, Verdana, Arial, Sans-Serif, Tahoma;
+    margin: 20px 0;
+}
+.paragraph_content
+{
+    padding: 20px;
+}
+.paragraph_content p
+{
+    margin: 15px 0;
+}
+@media only screen and (max-width: 1200px)
+{
+    .main_content
+    {
+        display: block;
+    }
+    .main_content div.main_content_image,
+    .main_content div.main_content_description
+    {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 960px)
+{
+    
+}
+@media only screen and (max-width: 720px)
+{
+    div.maincontent_bar_wrapper,
+    div.product_container
+    {
+        display: block;
+    }
+    
+}
+@media only screen and (max-width: 480px)
+{
+    
+}
+/*----------------------------------------MAINCONTENTBAR CSS (end)----------------------------------------*/
+/*----------------------------------------MAINCONTENTBAR/RIGHTSIDE CSS (start)----------------------------------------*/
+div.rightside
+{
+    width: ;
+}
+@media only screen and (max-width: 1200px)
+{
+    
+}
+@media only screen and (max-width: 960px)
+{
+    
+}
+@media only screen and (max-width: 720px)
+{
+    
+}
+@media only screen and (max-width: 480px)
+{
+    
+}
+/*----------------------------------------MAINCONTENTBAR/RIGHTSIDE CSS (end)----------------------------------------*/
+/*----------------------------------------MAINCONTENTBAR/CENTERSIDE CSS (start)----------------------------------------*/
+div.centerside
+{
+
+}
+@media only screen and (max-width: 1200px)
+{
+    
+}
+@media only screen and (max-width: 960px)
+{
+    
+}
+@media only screen and (max-width: 720px)
+{
+    
+}
+@media only screen and (max-width: 480px)
+{
+    
+}
+/*----------------------------------------MAINCONTENTBAR/CENTERSIDE CSS (end)----------------------------------------*/
+/*----------------------------------------MAINCONTENTBAR/LEFTSIDE CSS (start)----------------------------------------*/
+div.leftside
+{
+
+}
+@media only screen and (max-width: 1200px)
+{
+    
+}
+@media only screen and (max-width: 960px)
+{
+    
+}
+@media only screen and (max-width: 720px)
+{
+    
+}
+@media only screen and (max-width: 480px)
+{
+    
+}
+/*----------------------------------------MAINCONTENTBAR/LEFTSIDE CSS (end)----------------------------------------*/
+/*----------------------------------------FOOTERBAR CSS (start)----------------------------------------*/
+section.footer_bar_main
+{
+    font-family: Tahoma, Verdana, Arial, Sans-Serif;
+    background-color: rgba(169, 58, 46, 1); /*PrimaryDark Color*/
+    border-top: 8px solid rgba(15, 147, 119, 1); /*Secondary Color*/
+    background: url(../Images/Backgrounds/Footer.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 10px
+}
+.footer_bar_main_wrapper
+{
+    padding: 20px 0 10px 0;
+    width: 95%;
+    margin: 0 auto;
+}
+.footer_bar_social
+{
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.footer_bar_social p
+{
+    margin: 0 0 15px 0;
+}
+.footer_bar_social ul,
+.footer_bar_subdetails_list ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footer_bar_social ul li
+{
+    display: inline-block;
+    margin: 3px;
+}
+.footer_bar_social ul li a img
+{
+    height: 50px; /* Height of logos*/
+    width: 50px; /* Width of logos*/
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+}
+.footer_bar_social ul li a img:hover
+{
+    transform: translate(0, -6px);
+    -webkit-transform: translate(0, -6px);
+    -moz-transform: translate(0, -6px);
+    -o-transfrom: translate(0, -6px);
+}
+.footer_bar_details
+{
+    display: flex;
+    display: -webkit-flex; /* For Safari */
+    flex-direction: row;
+    margin: 20px 0;
+    border: 2px solid #FFFFFF;
+    border-radius: 0;
+}
+.footer_bar_details div
+{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.footer_bar_subdetails
+{
+    padding: 20px;
+    margin: 6px;
+}
+.footer_bar_subdetails_header
+{
+    padding: 10px 8px;
+    background-color: rgba(243, 146, 63, 1); /*Tertiary Color*/
+    border-radius: 2px;
+}
+.footer_bar_subdetails_list ul,
+.footer_bar_subdetails_list table,
+.footer_bar_form
+{
+    padding: 15px 0;
+    margin: 0;
+}
+.footer_bar_subdetails_list ul li
+{
+    display: block;
+    padding: 8px 10px;
+}
+.footer_bar_subdetails_list ul li a
+{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.footer_bar_subdetails_list ul li a:hover
+{
+    color: rgba(220, 220, 220, 1);
+    text-decoration: underline;
+}
+.footer_bar_subdetails_list img
+{
+    vertical-align: middle;
+}
+.footer_bar_subdetails_list table
+{
+    border: 0;
+    border-collapse: collapse;
+}
+.footer_bar_subdetails_list table th,
+.footer_bar_subdetails_list table td
+{
+    padding: 10px 0;
+}
+.footer_bar_subdetails_list table th
+{
+    padding-right: 5px;
+}
+.footer_bar_subdetails_list table td
+{
+    padding-left: 5px;
+}
+.footer_bar_form ul
+{
+    padding: 0;
+    margin: 0;
+}
+.footer_bar_form p
+{
+    margin: 0 0 3px 0;
+}
+.footer_bar_form form input[type="text"]
+{
+    border: 1px solid rgba(220, 220, 220, 1);
+    padding: 18px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000; 
+    width: 100%;
+    text-indent: 10px;
+}
+.footer_bar_form form input[type="submit"]
+{
+    border: transparent;
+    padding: 18px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 0px rgba(50, 50, 50, 1);
+    width: 100%;
+}
+@media only screen and (max-width: 1200px)
+{
+    
+}
+@media only screen and (max-width: 960px)
+{
+    .footer_bar_social ul li a img
+    {
+        height: 47px; /* Height of logos*/
+        width: 47px; /* Width of logos*/
+    }
+}
+@media only screen and (max-width: 720px)
+{
+    .footer_bar_social ul li a img
+    {
+        height: 44px; /* Height of logos*/
+        width: 44px; /* Width of logos*/
+    }
+    .footer_bar_details
+    {
+        display: block;
+    }
+    .footer_bar_subdetails_list ul li a
+    {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 480px)
+{
+    .footer_bar_social ul li a img
+    {
+        height: 40px; /* Height of logos*/
+        width: 40px; /* Width of logos*/
+    }
+}
+/*----------------------------------------FOOTERBAR CSS (end)----------------------------------------*/
+/*----------------------------------------FOOTERBAREXTEND CSS (start)----------------------------------------*/
+section.footer_bar_extend
+{
+    font-family: Arial, Tahoma, Verdana, Arial, Sans-Serif;
+    background-color: rgba(169, 58, 46, 1); /*PrimaryDark Color*/
+}
+.footer_bar_extend_wrapper
+{
+    width: 90%;
+    margin: 0 auto;
+}
+.footer_bar_extend_header,
+.footer_bar_extend_copyright
+{
+    text-align: center;
+}
+.footer_bar_extend_header img
+{
+    margin: 8px;
+    height: 100px; /* Height of logo*/
+    width: 142px; /* Width of logo*/    
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.footer_bar_extend_header img:hover
+{
+    box-shadow: 0px 0px 15px 3px rgba(255, 255, 255, 0.6);
+}
+.footer_bar_extend_copyright
+{
+    padding: 5px;
+}
+@media only screen and (max-width: 1200px)
+{
+    .footer_bar_extend_header img
+    {
+        height: 75px; /* Logo height on footerbarextend*/
+        width: 107px; /* Logo width on footerbarextend*/
+    }
+}
+@media only screen and (max-width: 960px)
+{
+    
+}
+@media only screen and (max-width: 720px)
+{
+    .footer_bar_extend_header img
+    {
+        height: 45px; /* Logo height on menuber*/
+        width: 64px; /* Logo width on menuber*/
+        margin: 5px 0;
+    }
+}
+@media only screen and (max-width: 480px)
+{
+    
+}
+/*----------------------------------------FOOTERBAREXTEND CSS (end)----------------------------------------*/
+/*----------------------------------------SIGNUPPAGE and LOGINPAGE CSS (start)----------------------------------------*/
+/*HEADERBAR (start)*/
+.header_bar_signup_login
+{
+    background: rgba(169, 58, 46, 1); /*SecondaryLight Color For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(231, 120, 109, 1), rgba(169, 58, 46, 1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(231, 120, 109, 1), rgba(169, 58, 46, 1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(231, 120, 109, 1), rgba(169, 58, 46, 1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(231, 120, 109, 1), rgba(169, 58, 46, 1)); /* Standard syntax */
+}
+/*HEADERBAR (end)*/
+/*MENUBAR (start)*/
+
+/*MENUBAR (end)*/
+/*MAINCONTENTBAR (start)*/
+.maincontent_bar_signup_wrapper
+{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.maincontent_bar_login_wrapper
+{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.signup_header
+{
+    margin-bottom: 10px;
+}
+.maincontent_bar_signup_form
+{
+    font-family: Trebuchet MS, Helvetica, Verdana, Arial, Sans-Serif, Tahoma;
+    border-radius: 8px 8px 0 0;
+    background-color: #FFFFFF;
+    border-top: 9px solid rgba(15, 147, 119, 1); /*Secondary Color*/
+    border-right: 1px solid rgba(210,210,210, 1);
+    border-left: 1px solid rgba(210,210,210, 1);
+    border-bottom: 5px solid rgba(150,150,150, 1);
+    padding: 20px;
+}
+.signup_form
+{
+    margin: 8px;
+    width: 100%;
+    position: relative;
+}
+.signup_form div.signup_row
+{
+    display: flex;
+    display: -webkit-flex; /* For Safari */
+    flex-direction: row;
+    margin: 3px 0;
+}
+.signup_form div.signup_row div.signup_input
+{
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 2px;
+}
+.signup_form div.signup_row div.signup_input:nth-child(1)
+{
+    display: table;
+    text-align: right;
+    width: 25%;
+    max-width: 400px;
+    padding: 9.5px 0;
+}
+.signup_form div.signup_row div.signup_input:nth-child(3)
+{
+    padding: 4.5px 0;
+}
+.signup_form div.signup_row div#birthday
+{
+    display: flex;
+    display: -webkit-flex; /* For Safari */
+    flex-direction: row;
+}
+.signup_form div#birthday select
+{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.signup_form div.signup_row ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.signup_form div.signup_row div:nth-child(3) img
+{
+    vertical-align: middle;
+    margin-right: 5px; 
+}
+.signup_form form input[type="text"],
+.signup_form form input[type="password"],
+.signup_form form select
+{
+    font-size: 14px;
+    border: 1px solid #000000;
+    width: 100%;
+    padding: 11px 0;
+    text-indent: 8px;
+    background-color: #FFFFFF;
+}
+.signup_form form input[type="submit"]
+{
+    border: transparent;
+    padding: 18px 50px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 0px rgba(50, 50, 50, 1);
+}
+.signup_form select#day
+{
+    margin: 0 3px;
+}
+.signup_form form input[type="text"]:focus,
+.signup_form form input[type="password"]:focus,
+.signup_form form select:focus
+{
+    outline: none;
+    border: 1px solid rgba(15, 147, 119, 1); /*Secondary Color*/
+}
+.signup_form div.password_row
+{
+    display: flex;
+    display: -webkit-flex; /* For Safari */
+    flex-direction: row;
+}
+.signup_form div.password_row img
+{
+    vertical-align: middle;
+}
+.signup_form form button#mask_unmask
+{
+    padding: 0 5px;
+    border: 1px solid #000000;
+    background-color: rgba(15, 147, 119, 1); /*Secondary Color*/
+}
+.signup_form form button#mask_unmask:focus
+{
+    outline: none;
+    border: 1px solid rgba(15, 147, 119, 1); /*Secondary Color*/
+}
+button.unmask_active
+{
+    background-color: rgba(15, 147, 119, 1) !important; /*Secondary Color*/
+}
+.signup_form_reminders
+{
+    margin: 15px 3px;
+}
+.signup_form_submit
+{
+    margin: 5px 0px;
+}
+.verify_confirmpassword_row
+{
+    height: 20px;
+}
+span#verify_confirmpassword
+{
+    color: red;
+    font-size: 13px;
+}
+.signup_form form div.verify_confirmpassword_row span.hidden
+{
+    display: none;
+}
+.maincontent_bar_login_form
+{
+    font-family: Tahoma, Helvetica, Verdana, Arial, Sans-Serif;
+    margin: 0px auto;
+    border: 1px solid rgba(231, 120, 109, 1); /*PrimaryLight Color*/
+    border-radius: 2px;
+    overflow: hidden;
+}
+.login_header
+{
+    font-family: Trebuchet MS, Helvetica, Verdana, Arial, Sans-Serif, Tahoma;
+    background-color: rgba(231, 120, 109, 1); /*PrimaryLight Color*/
+    width: 400px;
+    padding: 25px 20px;
+    text-align: left;
+}
+.login_form
+{
+    padding: 20px 45px;
+    background-color: rgba(220, 220, 220, 1);
+}
+.login_form table
+{
+    width: 100%;
+}
+.login_form table td
+{
+
+}
+.login_form form input::-webkit-input-placeholder
+{
+    color: rgba (20, 20, 20, 1);
+}
+.login_form input:-moz-placeholder /* Firefox 18- */
+{ 
+    color: rgba (20, 20, 20, 1);  
+}
+.login_forminput::-moz-placeholder /* Firefox 19+ */
+{ 
+    color: rgba (20, 20, 20, 1);  
+}
+.login_form input:-ms-input-placeholder 
+{  
+    color: rgba (20, 20, 20, 1);  
+}
+.login_form form input[type="text"],
+.login_form form input[type="password"],
+.login_form form input[type="submit"]
+{
+    margin: 5px 0;
+}
+.login_form form input[type="text"],
+.login_form form input[type="password"]
+{
+    width: 100%;
+    font-size: 19px;
+    padding: 8px 0;
+    border-top: 2px hidden rgba(150, 150, 150, 1);
+    border-right: 2px hidden rgba(150, 150, 150, 1);
+    border-bottom: 2px solid rgba(50, 50, 50, 1);
+    border-left: 2px hidden rgba(150, 150, 150, 1);
+    text-indent: 27px;
+    background-color: transparent;
+}
+.login_form form input[type="text"]:focus,
+.login_form form input[type="password"]:focus
+{
+    outline: none;
+    border-top: 2px hidden rgba(15, 147, 119, 1); /*Secondary Color*/
+    border-right: 2px hidden rgba(15, 147, 119, 1); /*Secondary Color*/
+    border-bottom: 2px solid rgba(15, 147, 119, 1); /*Secondary Color*/
+    border-left: 2px hidden rgba(15, 147, 119, 1); /*Secondary Color*/
+}
+.login_form form input[type="submit"]
+{
+    border: transparent;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.login_form form input#username
+{
+    background-image: url(../Images/Forms/UsernameIcon.png);
+    background-position: 3px 10px;
+    background-repeat: no-repeat;
+}
+.login_form form input#password
+{
+    background-image: url(../Images/Forms/PasswordIcon.png);
+    background-position: 3px 10px;
+    background-repeat: no-repeat;
+}
+.login_form_reminders
+{
+    margin: 8px 0 0 0;
+    text-align: right;
+}
+media only screen and (max-width: 1200px)
+{
+    
+}
+@media only screen and (max-width: 960px)
+{
+    
+}
+@media only screen and (max-width: 720px)
+{
+    .signup_form div.signup_row
+    {
+        display: block;
+    }
+    .signup_form div.signup_row div.signup_input:nth-child(1)
+    {
+        text-align: left;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 480px)
+{
+    
+}
+/*MAINCONTENTBAR (end)*/
+/*----------------------------------------SIGNUPPAGE and LOGINPAGE CSS (end)----------------------------------------*/

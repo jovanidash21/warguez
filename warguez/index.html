@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="shortcut icon" href="favicon.ico" type="image/ico">
+		<title>Warguez®</title>
+
+		<!--External Main CSS-->
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="CSS/style.css"/>
+
+		<!--Import jQuery Library-->	
+		<script src="JS/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+		<!--External Main jQuery-->
+		<script src="JS/query.js" type="text/javascript"></script>
+
+		<!--External Main Script-->
+		<script src="JS/script.js" type="text/javascript"></script>
+
+		<!--Downloaded from http://jquery.malsup.com/cycle2/-->
+		<!--For the Slideshow-->
+		<script src="JS/jquery.cycle2.min.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<section class="header_bar">
+			<div class="header_bar_wrapper">
+				<div class="header_bar_logo">
+					<a href="index.html">
+						<img id="header_bar_logo" src="Images/Logos/Header.png"/>
+					</a>
+				</div>
+				<div class="header_bar_form">
+					<ul>
+						<li>
+							<form action="sign_up.html">
+								<input id="signup_button" type="submit" value="Sign Up"/>
+							</form>
+						</li>
+						<li>
+							<form action="login.html">
+								<input id="login_button" type="submit" value="LOG IN"/>
+							</form>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="menu_bar">
+			<div class="menu_bar_wrapper">
+				<div class="menu_bar_trigger">
+					<div class="trigger">
+						<span id="trigger"><img src="Images/Menubar/Menu.png" onmouseover="this.src='Images/Menubar/MenuHover.png'" onmouseout="this.src='Images/Menubar/Menu.png'"/></span>
+					</div>
+				</div>
+				<div class="menu_bar_nottrigger">
+					<nav>
+						<ul class="menu_bar_list">
+							<li id="active"><a href="index.html"><img src="Images/Menubar/Home.png"/><span id="menu_bar_home">HOME</span></a>
+							</li><li><a href="menu_1.html">MENU1</a>
+							</li><li><a href="#">MENU2</a>
+							</li><li><a href="#">MENU3</a>
+							</li><li><a href="#">MENU4</a>
+							</li><li><a href="#">MENU5</a>
+							</li><li><a href="#">MENU6</a>
+							</li><li id="menu_bar_login"><a href="#">LOG IN</a>
+							</li><li id="menu_bar_signup"><a href="#">SIGN UP</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</section>
+		<section class="slideshow_bar">
+			<div class="slideshow_bar_wrapper cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-timeout="4000">
+				<span class="cycle-prev"><img src="Images/Slideshow/LeftArrow.png" onmouseover="this.src='Images/Slideshow/LeftArrowHover.png'" onmouseout="this.src='Images/Slideshow/LeftArrow.png'"/></span>
+
+				<span class="cycle-next"><img src="Images/Slideshow/RightArrow.png" onmouseover="this.src='Images/Slideshow/RightArrowHover.png'" onmouseout="this.src='Images/Slideshow/RightArrow.png'"/></span>
+
+				<img src="Images/Slideshow/1.png"/>
+				<img src="Images/Slideshow/2.png"/>
+				<img src="Images/Slideshow/3.png"/>
+				<img src="Images/Slideshow/4.png"/>
+				<img src="Images/Slideshow/5.png"/>
+				<img src="Images/Slideshow/6.png"/>
+				<img src="Images/Slideshow/7.png"/>
+				<img src="Images/Slideshow/8.png"/>
+				<img src="Images/Slideshow/9.png"/>
+				<img src="Images/Slideshow/10.png"/>
+				<img src="Images/Slideshow/11.png"/>
+				<img src="Images/Slideshow/12.png"/>
+				<img src="Images/Slideshow/13.png"/>
+				<img src="Images/Slideshow/14.png"/>
+				<img src="Images/Slideshow/15.png"/>
+				<img src="Images/Slideshow/16.png"/>
+				<span class="cycle-pager"></span>
+			</div>
+		</section>
+		<section class="maincontent_bar_header">
+			<div class="maincontent_bar_wrapper">
+				<div class="main_header">
+					<span id="main_title_light">Welcome to Warguez</span>	
+				</div>
+				<div class="main_content">
+					<div class="main_content_image">
+						<img src="Images/Maincontent/Header.png">
+					</div>
+					<div class="main_content_description">
+						<p id="main_sub_header_dark">
+							Behind the scenes, responsive websites use a new feature of CSS3 called media queries, to detect the screen size, and style the website differently according to the different sizes.  Typically a designer will break content up into blocks that rearrange themselves at certain screen sizes. So the site will apply one set of CSS styles for screens above a certain size, and a different set of styles to viewports below that size, and so on. On smaller screens, content blocks will stack on top of each other for easy mobile viewing.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="maincontent_bar">
+			<div class="maincontent_bar_wrapper">
+				<div class="rightside">
+
+				</div>
+				<div class="centerside">
+
+				</div>
+				<div clas="leftside">
+
+				</div>
+			</div>
+		</section>
+		<section class="maincontent_bar">
+			<div class="maincontent_bar_wrapper">
+				<div class="product_wrapper">
+					<div class="product_container">
+						<div class="maincontent_bar_product">
+							<div class="product_header">
+								<p id="main_sub_header_light">Product 1</p>
+							</div>
+							<div class="product_picture">
+								<a href="#">
+									<img id="product" src="Images/Products/Product1.png"/>
+									<div class="product_picture_hover">
+										<img src="Images/Products/Zoom.png"/>
+									</div>
+								</a>	
+							</div>
+							<!--
+							<div class="product_description">
+								<p id="main_label_text_dark">
+									Description Description Description Description Description Description
+								</p>
+							</div>
+							<div class="product_button">
+								<form action="#">
+									<input type="submit" value="Find out More"/>
+								</form>
+							</div>
+							-->
+						</div>
+						<div class="maincontent_bar_product">
+							<div class="product_header">
+								<p id="main_sub_header_light">Product 2</p>
+							</div>
+							<div class="product_picture">
+								<a href="#">
+									<img id="product" src="Images/Products/Product2.png"/>
+									<div class="product_picture_hover">
+										<img src="Images/Products/Zoom.png"/>
+									</div>
+								</a>
+							</div>
+							<!--
+							<div class="product_description">
+								<p id="main_label_text_dark">
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+								</p>
+							</div>
+							-->
+						</div>
+						<div class="maincontent_bar_product">
+							<div class="product_header">
+								<p id="main_sub_header_light">Product 3</p>
+							</div>
+							<div class="product_picture">
+								<a href="#">
+									<img id="product" src="Images/Products/Product3.png"/>
+									<div class="product_picture_hover">
+										<img src="Images/Products/Zoom.png"/>
+									</div>
+								</a>
+							</div>
+							<!--
+							<div class="product_description">
+								<p id="main_label_text_dark">
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+								</p>
+							</div>
+							-->
+						</div>
+						<div class="maincontent_bar_product">
+							<div class="product_header">
+								<p id="main_sub_header_light">Product 4</p>
+							</div>
+							<div class="product_picture">
+								<a href="#">
+									<img id="product" src="Images/Products/Product4.png"/>
+									<div class="product_picture_hover">
+										<img src="Images/Products/Zoom.png"/>
+									</div>
+								</a>
+							</div>
+							<!--
+							<div class="product_description">
+								<p id="main_label_text_dark">
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+								</p>
+							</div>
+							-->
+						</div>
+					</div>
+					<div class="product_container">
+						<div class="maincontent_bar_product">
+							<div class="product_header">
+								<p id="main_sub_header_light">Product 5</p>
+							</div>
+							<div class="product_picture">
+								<a href="#">
+									<img id="product" src="Images/Products/Product5.png"/>
+									<div class="product_picture_hover">
+										<img src="Images/Products/Zoom.png"/>
+									</div>
+								</a>
+							</div>
+							<!--
+							<div class="product_description">
+								<p id="main_label_text_dark">
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+								</p>
+							</div>
+							-->
+						</div>
+						<div class="maincontent_bar_product">
+							<div class="product_header">
+								<p id="main_sub_header_light">Product 6</p>
+							</div>
+							<div class="product_picture">
+								<a href="#">
+									<img id="product" src="Images/Products/Product6.png"/>
+									<div class="product_picture_hover">
+										<img src="Images/Products/Zoom.png"/>
+									</div>
+								</a>
+							</div>
+							<!--
+							<div class="product_description">
+								<p id="main_label_text_dark">
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+								</p>
+							</div>
+							-->
+						</div>
+						<div class="maincontent_bar_product">
+							<div class="product_header">
+								<p id="main_sub_header_light">Product 7</p>
+							</div>
+							<div class="product_picture">
+								<a href="#">
+									<img id="product" src="Images/Products/Product7.png"/>
+									<div class="product_picture_hover">
+										<img src="Images/Products/Zoom.png"/>
+									</div>
+								</a>
+							</div>
+							<!--
+							<div class="product_description">
+								<p id="main_label_text_dark">
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+								</p>
+							</div>
+							-->
+						</div>
+						<div class="maincontent_bar_product">
+							<div class="product_header">
+								<p id="main_sub_header_light">Product 8</p>
+							</div>
+							<div class="product_picture">
+								<a href="#">
+									<img id="product" src="Images/Products/Product8.png"/>
+									<div class="product_picture_hover">
+										<img src="Images/Products/Zoom.png"/>
+									</div>
+								</a>
+							</div>
+							<!--
+							<div class="product_description">
+								<p id="main_label_text_dark">
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+								</p>
+							</div>
+							-->
+						</div>
+					</div>
+					<div class="product_container">
+						<div class="maincontent_bar_product">
+							<div class="product_header">
+								<p id="main_sub_header_light">Product 9</p>
+							</div>
+							<div class="product_picture">
+								<a href="#">
+									<img id="product" src="Images/Products/Product1.png"/>
+									<div class="product_picture_hover">
+										<img src="Images/Products/Zoom.png"/>
+									</div>
+								</a>	
+							</div>
+							<!--
+							<div class="product_description">
+								<p id="main_label_text_dark">
+									Description Description Description Description Description Description
+								</p>
+							</div>
+							<div class="product_button">
+								<form action="#">
+									<input type="submit" value="Find out More"/>
+								</form>
+							</div>
+							-->
+						</div>
+						<div class="maincontent_bar_product">
+							<div class="product_header">
+								<p id="main_sub_header_light">Product 10</p>
+							</div>
+							<div class="product_picture">
+								<a href="#">
+									<img id="product" src="Images/Products/Product2.png"/>
+									<div class="product_picture_hover">
+										<img src="Images/Products/Zoom.png"/>
+									</div>
+								</a>
+							</div>
+							<!--
+							<div class="product_description">
+								<p id="main_label_text_dark">
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+								</p>
+							</div>
+							-->
+						</div>
+						<div class="maincontent_bar_product">
+							<div class="product_header">
+								<p id="main_sub_header_light">Product 11</p>
+							</div>
+							<div class="product_picture">
+								<a href="#">
+									<img id="product" src="Images/Products/Product3.png"/>
+									<div class="product_picture_hover">
+										<img src="Images/Products/Zoom.png"/>
+									</div>
+								</a>
+							</div>
+							<!--
+							<div class="product_description">
+								<p id="main_label_text_dark">
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+								</p>
+							</div>
+							-->
+						</div>
+						<div class="maincontent_bar_product">
+							<div class="product_header">
+								<p id="main_sub_header_light">Product 12</p>
+							</div>
+							<div class="product_picture">
+								<a href="#">
+									<img id="product" src="Images/Products/Product4.png"/>
+									<div class="product_picture_hover">
+										<img src="Images/Products/Zoom.png"/>
+									</div>
+								</a>
+							</div>
+							<!--
+							<div class="product_description">
+								<p id="main_label_text_dark">
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+								</p>
+							</div>
+							-->
+						</div>
+					</div>
+					<div class="product_container">
+						<div class="maincontent_bar_product">
+							<div class="product_header">
+								<p id="main_sub_header_light">Product 13</p>
+							</div>
+							<div class="product_picture">
+								<a href="#">
+									<img id="product" src="Images/Products/Product5.png"/>
+									<div class="product_picture_hover">
+										<img src="Images/Products/Zoom.png"/>
+									</div>
+								</a>
+							</div>
+							<!--
+							<div class="product_description">
+								<p id="main_label_text_dark">
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+								</p>
+							</div>
+							-->
+						</div>
+						<div class="maincontent_bar_product">
+							<div class="product_header">
+								<p id="main_sub_header_light">Product 14</p>
+							</div>
+							<div class="product_picture">
+								<a href="#">
+									<img id="product" src="Images/Products/Product6.png"/>
+									<div class="product_picture_hover">
+										<img src="Images/Products/Zoom.png"/>
+									</div>
+								</a>
+							</div>
+							<!--
+							<div class="product_description">
+								<p id="main_label_text_dark">
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+								</p>
+							</div>
+							-->
+						</div>
+						<div class="maincontent_bar_product">
+							<div class="product_header">
+								<p id="main_sub_header_light">Product 15</p>
+							</div>
+							<div class="product_picture">
+								<a href="#">
+									<img id="product" src="Images/Products/Product7.png"/>
+									<div class="product_picture_hover">
+										<img src="Images/Products/Zoom.png"/>
+									</div>
+								</a>
+							</div>
+							<!--
+							<div class="product_description">
+								<p id="main_label_text_dark">
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+								</p>
+							</div>
+							-->
+						</div>
+						<div class="maincontent_bar_product">
+							<div class="product_header">
+								<p id="main_sub_header_light">Product 16</p>
+							</div>
+							<div class="product_picture">
+								<a href="#">
+									<img id="product" src="Images/Products/Product8.png"/>
+									<div class="product_picture_hover">
+										<img src="Images/Products/Zoom.png"/>
+									</div>
+								</a>
+							</div>
+							<!--
+							<div class="product_description">
+								<p id="main_label_text_dark">
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+									Description Description Description Description Description Description
+								</p>
+							</div>
+							-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="footer_bar">
+			<section class="footer_bar_main">
+				<div class="footer_bar_main_wrapper">
+					<div class="footer_bar_social">
+						<p id="main_sub_header_light">Around the Web</p>
+						<ul>
+							<li><a href="#"><img src="Images/SocialMedia/Behance.png" onmouseover="this.src='Images/SocialMedia/BehanceHover.png'" onmouseout="this.src='Images/SocialMedia/Behance.png'"/></a></li>
+							<li><a href="#"><img src="Images/SocialMedia/Blogger.png" onmouseover="this.src='Images/SocialMedia/BloggerHover.png'" onmouseout="this.src='Images/SocialMedia/Blogger.png'"/></a></li>
+							<li><a href="#"><img src="Images/SocialMedia/Facebook.png" onmouseover="this.src='Images/SocialMedia/FacebookHover.png'" onmouseout="this.src='Images/SocialMedia/Facebook.png'"/></a></li>
+							<li><a href="#"><img src="Images/SocialMedia/Flickr.png" onmouseover="this.src='Images/SocialMedia/FlickrHover.png'" onmouseout="this.src='Images/SocialMedia/Flickr.png'"/></a></li>
+							<li><a href="#"><img src="Images/SocialMedia/Google+.png" onmouseover="this.src='Images/SocialMedia/Google+Hover.png'" onmouseout="this.src='Images/SocialMedia/Google+.png'"/></a></li>
+							<li><a href="#"><img src="Images/SocialMedia/Instagram.png" onmouseover="this.src='Images/SocialMedia/InstagramHover.png'" onmouseout="this.src='Images/SocialMedia/Instagram.png'"/></a></li>
+							<li><a href="#"><img src="Images/SocialMedia/LinkedIn.png" onmouseover="this.src='Images/SocialMedia/LinkedInHover.png'" onmouseout="this.src='Images/SocialMedia/LinkedIn.png'"/></a></li>
+							<li><a href="#"><img src="Images/SocialMedia/MySpace.png" onmouseover="this.src='Images/SocialMedia/MySpaceHover.png'" onmouseout="this.src='Images/SocialMedia/MySpace.png'"/></a></li>
+							<li><a href="#"><img src="Images/SocialMedia/Pinterest.png" onmouseover="this.src='Images/SocialMedia/PinterestHover.png'" onmouseout="this.src='Images/SocialMedia/Pinterest.png'"/></a></li>
+							<li><a href="#"><img src="Images/SocialMedia/Reddit.png" onmouseover="this.src='Images/SocialMedia/RedditHover.png'" onmouseout="this.src='Images/SocialMedia/Reddit.png'"/></a></li>
+							<li><a href="#"><img src="Images/SocialMedia/RSS.png" onmouseover="this.src='Images/SocialMedia/RSSHover.png'" onmouseout="this.src='Images/SocialMedia/RSS.png'"/></a></li>
+							<li><a href="#"><img src="Images/SocialMedia/Skype.png" onmouseover="this.src='Images/SocialMedia/SkypeHover.png'" onmouseout="this.src='Images/SocialMedia/Skype.png'"/></a></li>
+							<li><a href="#"><img src="Images/SocialMedia/Stumbleupon.png" onmouseover="this.src='Images/SocialMedia/StumbleuponHover.png'" onmouseout="this.src='Images/SocialMedia/Stumbleupon.png'"/></a></li>
+							<li><a href="#"><img src="Images/SocialMedia/Tumblr.png" onmouseover="this.src='Images/SocialMedia/TumblrHover.png'" onmouseout="this.src='Images/SocialMedia/Tumblr.png'"/></a></li>
+							<li><a href="#"><img src="Images/SocialMedia/Twitter.png" onmouseover="this.src='Images/SocialMedia/TwitterHover.png'" onmouseout="this.src='Images/SocialMedia/Twitter.png'"/></a></li>
+							<li><a href="#"><img src="Images/SocialMedia/Vimeo.png" onmouseover="this.src='Images/SocialMedia/VimeoHover.png'" onmouseout="this.src='Images/SocialMedia/Vimeo.png'"/></a></li>
+							<li><a href="#"><img src="Images/SocialMedia/Wordpress.png" onmouseover="this.src='Images/SocialMedia/WordpressHover.png'" onmouseout="this.src='Images/SocialMedia/Wordpress.png'"/></a></li>
+							<li><a href="#"><img src="Images/SocialMedia/Yahoo.png" onmouseover="this.src='Images/SocialMedia/YahooHover.png'" onmouseout="this.src='Images/SocialMedia/Yahoo.png'"/></a></li>
+							<li><a href="#"><img src="Images/SocialMedia/YouTube.png" onmouseover="this.src='Images/SocialMedia/YouTubeHover.png'" onmouseout="this.src='Images/SocialMedia/YouTube.png'"/></a></li>
+						</ul>
+					</div>
+					<div class="footer_bar_details">
+						<div class="footer_bar_subdetails">
+							<div class="footer_bar_subdetails_header">
+								<p id="main_sub_header_light">Quick Links</p>
+							</div>
+							<div class="footer_bar_subdetails_list">
+								<ul>
+									<li><a href="about_us.html">About Warguez</a></li>
+									<li><a href="terms_and_conditions.html" target="_blank">Terms and Conditions of Use</a></li>
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">FAQ</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="footer_bar_subdetails">
+							<div class="footer_bar_subdetails_header">
+								<p id="main_sub_header_light">Contact Us</p>
+							</div>
+							<div class="footer_bar_subdetails_list">
+								<table>
+									<tbody>
+										<tr>
+											<th><img src="Images/Footer/EmailIcon.png"/></th>
+											<td>
+												<span id="main_text_light">warguezjovani@yahoo.com</span>
+											</td>
+										</tr>
+										<tr>
+											<th><img src="Images/Footer/PhoneIcon.png"/></th>
+											<td>
+												<span id="main_text_light">09272471075<br>09469076215</span>
+											</td>
+										</tr>
+										<tr>
+											<th><img src="Images/Footer/AddressIcon.png"/></th>
+											<td>
+												<span id="main_text_light">Lot 7, Blk 9, Tagupo St., Tatalon, Q.C.</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="footer_bar_subdetails">
+							<div class="footer_bar_subdetails_header">
+								<p id="main_sub_header_light">Updates</p>
+							</div>
+							<div class="footer_bar_subdetails_list">
+								<div class="footer_bar_form">
+									<form action="#" accept-charset="UTF-8">
+										<ul>
+											<li>
+												<p id="main_text_light">Receive articles in your inbox</p>
+												<input type="text" id="email" name="email" placeholder="Enter Email"/>
+											</li>
+											<li>
+												<input id="getupdates_button" type="submit" value="Subscribe"/>
+											</li>
+										</ul>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="footer_bar_subdetails">
+							<div class="footer_bar_subdetails_header">
+								<p id="main_sub_header_light">Account</p>
+							</div>
+							<div class="footer_bar_subdetails_list">
+								<div class="footer_bar_form">
+									<ul>
+										<li>
+											<form action="HTML/SignUpPage.html">
+												<p id="main_text_light">Create an Account?</p>
+												<input id="signup_button" type="submit" value="Sign Up"/>
+											</form>
+										</li>
+										<li>
+											<form action="HTML/LogInPage.html">
+												<p id="main_text_light">Have an Account Already?</p>
+												<input id="login_button" type="submit" value="LOG IN"/>
+											</form>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="footer_bar_extend">
+				<div class="footer_bar_extend_wrapper">
+					<div class="footer_bar_extend_header">
+						<a href="index.html"><img src="Images/Logos/Footer.png"/></a>
+					</div>
+					<div class="footer_bar_extend_copyright">
+						<p id="main_sub_text_light">© 2012 - 2017 Warguez Company. All Rights Reserved.</p>
+					</div>
+				</div>
+			</section>
+		</section>
+		<section class="popup_bar">
+
+		</section>
+	</body>
+</html>
