@@ -1,3 +1,4 @@
+## Screenshots
 ![](https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/1.png)
 ![](https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/2.png)
 ![](https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/3.png)
@@ -7,7 +8,7 @@
 ## Website
 - [warguez](http://warguez.cpecareer.com/)
 
-## Links
+## Connect
 - [Wordpress](https://jovaniwarguez.wordpress.com/)
 - [Facebook](https://facebook.com/jovani.cadornawarguez)
 - [Twitter](https://twitter.com/jovanidash21)
