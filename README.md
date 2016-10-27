@@ -1,6 +1,8 @@
 ![](https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/1.png)
 ![](https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/2.png)
 ![](https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/3.png)
+![](https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/4.png)
+![](https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/5.png)
 
 ## Website
 - [warguez](http://warguez.cpecareer.com/)
