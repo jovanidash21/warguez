@@ -1,10 +1,19 @@
 ## Screenshots
-![](https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/1.png)
-![](https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/2.png)
-![](https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/3.png)
-![](https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/4.png)
-![](https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/5.png)
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/1.png">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/2.png">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/3.png">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/4.png">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/5.png">
+</p>
 ## Website
 - [warguez](http://warguez.cpecareer.com/)
 
