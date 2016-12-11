@@ -2,19 +2,7 @@
 ---
 ## Screenshots
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/1.png">
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/2.png">
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/3.png">
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/4.png">
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/jovanidash21/warguez/master/warguez/Images/Screenshots/5.png">
+  <img src="https://raw.githubusercontent.com/jovanidash21/warguez/master/screenshot.png">
 </p>
 ## Website
 - [warguez](http://warguez.cpecareer.com/)
