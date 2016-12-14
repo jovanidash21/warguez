@@ -5,7 +5,7 @@
   <img src="https://raw.githubusercontent.com/jovanidash21/warguez/master/screenshot.png">
 </p>
 ## Website
-- [warguez](http://warguez.cpecareer.com/)
+- [warguez](https://jovanidash21.github.io/warguez/)
 
 ## Connect
 - [Wordpress](https://jovaniwarguez.wordpress.com/)
