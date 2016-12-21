@@ -1,11 +1,13 @@
 # Warguez
 ---
+
 ## Screenshot
 <p align="center">
   <img src="https://raw.githubusercontent.com/jovanidash21/warguez/master/screenshot.png">
 </p>
-## Website
-- [warguez](https://jovanidash21.github.io/warguez/)
+
+## Credit
+- [Slider](http://jquery.malsup.com/cycle2/)
 
 ## Connect
 - [Wordpress](https://jovaniwarguez.wordpress.com/)
