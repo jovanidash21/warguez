@@ -6,6 +6,13 @@
   <img src="https://raw.githubusercontent.com/jovanidash21/warguez/master/screenshot.png">
 </p>
 
+## Installation
+* Clone or download this repository.
+```
+git clone https://github.com/jovanidash21/warguez.git
+```
+* Open `index.html` in browser.
+
 ## Credit
 - [Slider](http://jquery.malsup.com/cycle2/)
 
