@@ -13,3 +13,6 @@ git clone https://github.com/jovanidash21/warguez.git
 
 ## Website
 [Live Demo](https://jovanidash21.github.io/warguez/)
+
+## License
+Licensed under [MIT](https://opensource.org/licenses/mit-license.php).
